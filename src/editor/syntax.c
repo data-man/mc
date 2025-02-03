@@ -955,8 +955,8 @@ edit_read_syntax_rules (WEdit *edit, FILE *f, char **args, int args_size)
 {
     FILE *g = NULL;
     tty_color_pair_t color;
-    char last_fg[BUF_TINY/2] = "";
-    char last_bg[BUF_TINY/2] = "";
+    char last_fg[BUF_TINY / 2] = "";
+    char last_bg[BUF_TINY / 2] = "";
     char last_attrs[BUF_TINY] = "";
     char whole_right[BUF_MEDIUM];
     char whole_left[BUF_MEDIUM];
