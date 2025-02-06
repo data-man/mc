@@ -1242,7 +1242,7 @@ init_subshell_precmd (void)
                                 command_buffer_pipe[WRITE], command_buffer_pipe[WRITE],
                                 subshell_pipe[WRITE]);
     default:
-        fprintf (stderr, "subshell: unknown shell type (%d), aborting!\r\n", mc_global.shell->type);
+        fprintf (stderr, "subshell: unknown shell type (%u), aborting!\r\n", mc_global.shell->type);
         exit (EXIT_FAILURE);
     }
 }
