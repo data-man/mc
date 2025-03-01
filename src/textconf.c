@@ -144,7 +144,7 @@ show_version (void)
 
     printf (_ ("GNU Midnight Commander %s\n"), mc_global.mc_version);
 
-    printf (_ ("Built with GLib %d.%d.%d (using GLib %d.%d.%d)\n"), GLIB_MAJOR_VERSION,
+    printf (_ ("Built with GLib %d.%d.%d (using GLib %u.%u.%u)\n"), GLIB_MAJOR_VERSION,
             GLIB_MINOR_VERSION, GLIB_MICRO_VERSION, glib_major_version, glib_minor_version,
             glib_micro_version);
 
