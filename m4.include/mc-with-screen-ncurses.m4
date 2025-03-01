@@ -33,7 +33,7 @@ AC_DEFUN([mc_WITH_NCURSES], [
 
     AC_MSG_CHECKING([for specific NCurses includedir])
     AC_ARG_WITH([ncurses-includedir],
-        [AS_HELP_STRING([--with-screen-includedir=@<:@DIR@:>@], [Path to NCurses header files])],
+        [AS_HELP_STRING([--with-ncurses-includedir=@<:@DIR@:>@], [Path to NCurses header files])],
         [AS_IF([test ! -d "$withval"], [AC_MSG_ERROR([NCurses includedir path "$withval" not found])])
         CFLAGS="$save_CFLAGS -I$withval"],
         [with_ncurses_includedir=no])
